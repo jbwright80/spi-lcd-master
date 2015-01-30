@@ -1,0 +1,4 @@
+#!/bin/bash
+
+avrdude -c avrispmkii -p m644 -P usb -U lfuse:w:0xee:m
+avrdude -c avrispmkii -p m644 -P usb -U hfuse:w:0xd1:m

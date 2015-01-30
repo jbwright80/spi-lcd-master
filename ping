@@ -1,0 +1,4 @@
+#!/bin/bash
+
+avrdude -c avrispmkii -p m644 -P usb
+

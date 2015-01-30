@@ -1,0 +1,4 @@
+#!/bin/bash
+
+avrdude -c avrispmkii -p m644 -P usb -B 10 -U flash:w:main.hex:i
+
